@@ -1,0 +1,21 @@
+.slide-item {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.fade-content {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+.btn.active {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
