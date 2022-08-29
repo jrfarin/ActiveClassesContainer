@@ -1,4 +1,5 @@
-.slide-item {
+.slide-item,
+.slide-item-auto {
     display: none;
     justify-content: center;
     align-items: center;

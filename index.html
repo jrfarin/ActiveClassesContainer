@@ -9,11 +9,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="row bg-warning">
+        <div class="row bg-dark">
             <div class="col-12">
                 <header class="header">
                     <h1 class="fs-2 fw-light text-center text-white py-3">Active Classes Buttons & Container</h1>                   
                 </header>
+            </div>
+        </div>
+    <div>
+    
+    <!-- MANUAL SLIDER -->
+    <div class="container border-bottom pb-4 mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="fw-light text-uppercase display-5">Manual Slider</h2>
             </div>
         </div>
         <div class="row justify-content-between align-items-center slideContainer mt-4">
@@ -34,7 +43,36 @@
                 <button type="button" class="btn btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1" onclick="currentSlide(6)">6</button>
             </div>
         </div>
+    </div>   
+    
+    <!-- AUTOMATIC SLIDER -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="fw-light text-uppercase display-5">Automatic Slider</h2>
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center slideContainerAuto mt-4">
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 1</span></div>
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 2</span></div>
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 3</span></div>
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 4</span></div>
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 5</span></div>
+            <div class="col slide-item-auto bg-info fade-content mx-2"><span class="display-6 text-uppercase p-2 ">Container auto 6</span></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">              
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">1</button>
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">2</button>
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">3</button>
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">4</button>
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">5</button>
+                <button type="button" class="btn btn-auto btn-outline-dark btn-lg fs-5 rounded-0 shadow-none m-1">6</button>
+            </div>
+        </div>
     </div>
+        
+
 
     <script src="./app.js"></script>
 
